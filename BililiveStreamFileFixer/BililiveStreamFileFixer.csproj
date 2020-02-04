@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net472;netcoreapp2.2</TargetFrameworks>
+    <LangVersion>7.3</LangVersion>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <StartupObject>BililiveStreamFileFixer.Program</StartupObject>
+    <Authors>genteure</Authors>
+    <Company>genteure</Company>
+    <Product>时间戳修复工具 讨论反馈群689636812 或邮箱 flvfix@genteure.com</Product>
+    <Description>时间戳修复工具 讨论反馈群689636812 或邮箱 flvfix@genteure.com</Description>
+    <PackageId>BililiveStreamFileFixer</PackageId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net472|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="System.Memory" Version="4.5.3" />
+  </ItemGroup>
+</Project>
