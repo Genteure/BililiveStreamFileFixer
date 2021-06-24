@@ -1,6 +1,6 @@
 # B站直播录像修复工具
 
-本工具已废弃不再更新维护，请使用 [B站录播姬](rec.danmuji.org) ([GitHub](https://github.com/Bililive/BililiveRecorder)) 里的工具箱
+本工具已废弃不再更新维护，请使用 [B站录播姬](https://rec.danmuji.org) ([GitHub](https://github.com/Bililive/BililiveRecorder)) 里的工具箱
 
 ---
 
